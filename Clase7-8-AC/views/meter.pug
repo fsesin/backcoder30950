@@ -1,0 +1,10 @@
+extends index
+
+block meters
+    h1(style="color:blue")!=titulo
+        span=min+"  "
+        meter(value=nivel 
+              min=min 
+              max=max 
+              style="width:30%; height:20px")
+        span="  "+max

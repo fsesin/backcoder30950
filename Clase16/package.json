@@ -1,0 +1,16 @@
+{
+  "name": "sql-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1"
+  }
+}
